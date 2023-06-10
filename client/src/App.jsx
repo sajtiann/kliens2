@@ -8,6 +8,7 @@ import RegistrationPage from "./RegistrationPage.jsx";
 import { useSelector } from "react-redux";
 import { selectLoggedInUser } from "./state/authSlice.js";
 import MySurveys from "./MySurveys.jsx";
+import Profile from "./Profile.jsx";
 
 function App() {
   let user = useSelector(selectLoggedInUser);
@@ -40,7 +41,7 @@ function App() {
           path="/profile"
           element={
             <RequireAuth>
-              <HomePage />
+              <Profile />
             </RequireAuth>
           }
         />

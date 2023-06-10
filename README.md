@@ -198,11 +198,11 @@ Az egész projektet tömörítsd be, kliensestül, szerverestül, és azt tölts
 - Kérdőív: lapozón vizuálisan látszik, hogy mely lapnál tartunk (1pt)
 - Kérdőív: beküldés helyes működése (2pt)
 - Válaszok: a kiválasztott kérdőívre adott válaszok megjelennek (2pt)
-- Profil: csak bejelentkezve érhető el, megfelelő tartalommal (2pt)
-- Profil: Kijelentkezés gomb működik (1pt)
+- `Profil: csak bejelentkezve érhető el, megfelelő tartalommal (2pt)`
+- `Profil: Kijelentkezés gomb működik (1pt)`
 - `Igényes megjelenés (2pt)`
 - Pluszok: a kérdőíveim lista lapozható (pl. 5-ösével) (+2pt)
 - Pluszok: a válaszok lista lapozható (pl. 10-esével) (+2pt)
-- Pluszok: a kérdőív linkje egy gombra kattintva a vágólapra másolható (+1pt)
+- `Pluszok: a kérdőív linkje egy gombra kattintva a vágólapra másolható (+1pt)`
 - 1 hét késés (-3pt)
 - 2 hét késés (-6pt)

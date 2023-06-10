@@ -118,7 +118,13 @@ const MySurveys = () => {
                     >
                       Kérdőív szerkesztése
                     </Button>
-                    <Button onClick={() => copyToClipboard(survey.hash)}>
+                    <Button
+                      onClick={() =>
+                        copyToClipboard(
+                          `http://localhost:3030/surveys?hash=${survey.hash}`
+                        )
+                      }
+                    >
                       Link másolása
                     </Button>
                     <Button

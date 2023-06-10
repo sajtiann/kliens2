@@ -18,11 +18,9 @@ export const authSlice = createSlice({
       // console.log(state);
     },
     storeSurveysAction: (state, action) => {
-      // Update the surveys in the state with the fetched surveys
       state.surveys = action.payload;
     },
     deleteSurveyAction: (state, action) => {
-      // Remove the deleted survey from the surveys list
       state.surveys = state.surveys.filter(
         (survey) => survey.id !== action.payload
       );

@@ -1,8 +1,15 @@
 /* eslint-disable react/prop-types */
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { logout } from "./state/authSlice.js";
 
 const Navigation = ({ loggedIn }) => {
+  const dispatch = useDispatch();
+
+  const handleLogout = () => {
+    dispatch(logout());
+  };
   return (
     <AppBar position="static">
       <Toolbar>
@@ -22,7 +29,7 @@ const Navigation = ({ loggedIn }) => {
             <Button color="inherit" component={Link} to="/profile">
               Profil
             </Button>
-            <Button color="inherit" component={Link} to="/logout">
+            <Button color="inherit" component={Link} onClick={handleLogout}>
               Kijelentkezés
             </Button>
           </>
