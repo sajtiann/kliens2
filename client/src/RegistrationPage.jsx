@@ -18,7 +18,6 @@ const RegistrationPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Registration data submission to the server
     fetch("http://localhost:3030/users", {
       method: "POST",
       headers: {
@@ -29,11 +28,9 @@ const RegistrationPage = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log("Registration successful!", data);
-        // Handle further actions on successful registration
       })
       .catch((error) => {
         console.error("Error occurred during registration:", error);
-        // Handle error during registration
       });
   };
 

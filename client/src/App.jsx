@@ -54,20 +54,6 @@ function App() {
         />
       </Routes>
     </BrowserRouter>
-
-    // <Router>
-    //   <div>
-    //     <Navigation loggedIn={false} />
-    //     <Routes>
-    //       <Route path="/" element={<HomePage />} />
-    //       <Route path="register" element={<RegistrationPage />} />
-    //       <Route path="login" element={<HomePage />} />
-    //       <Route path="answers" element={<HomePage />} />
-    //       <Route path="profile" element={<HomePage />} />
-    //       <Route path="logout" element={<HomePage />} />
-    //     </Routes>
-    //   </div>
-    // </Router>
   );
 }
 
