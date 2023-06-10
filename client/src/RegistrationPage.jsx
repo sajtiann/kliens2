@@ -40,11 +40,11 @@ const RegistrationPage = () => {
   return (
     <Container maxWidth="sm">
       <Typography variant="h4" align="center" gutterBottom>
-        Registration
+        Regisztráció
       </Typography>
       <form onSubmit={handleSubmit}>
         <TextField
-          label="Full Name"
+          label="Teljes név"
           name="fullname"
           value={formData.fullname}
           onChange={handleInputChange}
@@ -52,7 +52,7 @@ const RegistrationPage = () => {
           required
         />
         <TextField
-          label="Email Address"
+          label="Email"
           name="email"
           type="email"
           value={formData.email}
@@ -61,7 +61,7 @@ const RegistrationPage = () => {
           required
         />
         <TextField
-          label="Password"
+          label="Jelszó"
           name="password"
           type="password"
           value={formData.password}
@@ -70,7 +70,7 @@ const RegistrationPage = () => {
           required
         />
         <Button type="submit" variant="contained" color="primary" fullWidth>
-          Register
+          Regisztrálok
         </Button>
       </form>
     </Container>

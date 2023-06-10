@@ -7,11 +7,13 @@ const Navigation = ({ loggedIn }) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          KérdőívKovács
+          <Button color="inherit" component={Link} to="/">
+            Kérdőívek
+          </Button>
         </Typography>
         {loggedIn ? (
           <>
-            <Button color="inherit" component={Link} to="/">
+            <Button color="inherit" component={Link} to="/surveys">
               Kérdőíveim
             </Button>
             <Button color="inherit" component={Link} to="/answers">

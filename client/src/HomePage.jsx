@@ -13,7 +13,7 @@ const HomePage = () => {
         >
           <Grid item>
             <Typography variant="h4" align="center" gutterBottom>
-              Üdvözöllek a KérdőívKovácsban!
+              Üdvözöllek a Kérdőívek oldalon!
             </Typography>
           </Grid>
           <Grid item>

@@ -185,12 +185,12 @@ Az egész projektet tömörítsd be, kliensestül, szerverestül, és azt tölts
 - `Navigáció megfelelően változik a be- és kijelentkezésnek megfelelően (1pt)`
 - `Főoldal megjelenik (1pt)`
 - `Regisztráció működik (1pt)`
-- Bejelentkezés működik (1pt)
-- Új kérdőív, Kérdőíveim: csak bejelentkezve érhetőek el (1pt)
+- `Bejelentkezés működik (1pt)`
+- `Új kérdőív, Kérdőíveim: csak bejelentkezve érhetőek el (1pt)`
 - Új kérdőív: új kérdőív mentésének helyes működése (2pt)
-- Kérdőíveim: megjelennek a kérdőívek az elérhető funkciókkal (2pt)
+- `Kérdőíveim: megjelennek a kérdőívek az elérhető funkciókkal (2pt)`
 - Kérdőíveim: módosítás helyes működése (2pt)
-- Kérdőíveim: törlés helyes működése (2pt)
+- `Kérdőíveim: törlés helyes működése (2pt)`
 - Kérdőíveim: hivatkozás helyes működése (1pt)
 - Kérdőív: a kérdőív kérdései megjelennek (3pt)
 - Kérdőív: a kérdések lapozható formában jelennek meg a lapok megnevezéseivel, a lapok közötti navigáció megfelelő (2pt)
@@ -200,7 +200,7 @@ Az egész projektet tömörítsd be, kliensestül, szerverestül, és azt tölts
 - Válaszok: a kiválasztott kérdőívre adott válaszok megjelennek (2pt)
 - Profil: csak bejelentkezve érhető el, megfelelő tartalommal (2pt)
 - Profil: Kijelentkezés gomb működik (1pt)
-- Igényes megjelenés (2pt)
+- `Igényes megjelenés (2pt)`
 - Pluszok: a kérdőíveim lista lapozható (pl. 5-ösével) (+2pt)
 - Pluszok: a válaszok lista lapozható (pl. 10-esével) (+2pt)
 - Pluszok: a kérdőív linkje egy gombra kattintva a vágólapra másolható (+1pt)
