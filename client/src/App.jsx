@@ -1,4 +1,3 @@
-// import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./auth/Login.jsx";
 import RequireAuth from "./auth/RequireAuth.jsx";
@@ -9,6 +8,8 @@ import { useSelector } from "react-redux";
 import { selectLoggedInUser } from "./state/authSlice.js";
 import MySurveys from "./MySurveys.jsx";
 import Profile from "./Profile.jsx";
+import CreateSurvey from "./CreateSurvey.jsx";
+import SurveyPage from "./SurveyPage.jsx";
 
 function App() {
   let user = useSelector(selectLoggedInUser);
@@ -22,10 +23,26 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<RegistrationPage />} />
         <Route
+          path="/survey/:hash"
+          element={
+            <RequireAuth>
+              <SurveyPage />
+            </RequireAuth>
+          }
+        />
+        <Route
           path="/surveys"
           element={
             <RequireAuth>
               <MySurveys />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/surveys/create"
+          element={
+            <RequireAuth>
+              <CreateSurvey />
             </RequireAuth>
           }
         />

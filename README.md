@@ -187,15 +187,15 @@ Az egész projektet tömörítsd be, kliensestül, szerverestül, és azt tölts
 - `Regisztráció működik (1pt)`
 - `Bejelentkezés működik (1pt)`
 - `Új kérdőív, Kérdőíveim: csak bejelentkezve érhetőek el (1pt)`
-- Új kérdőív: új kérdőív mentésének helyes működése (2pt)
+- `Új kérdőív: új kérdőív mentésének helyes működése (2pt)`
 - `Kérdőíveim: megjelennek a kérdőívek az elérhető funkciókkal (2pt)`
 - Kérdőíveim: módosítás helyes működése (2pt)
 - `Kérdőíveim: törlés helyes működése (2pt)`
-- Kérdőíveim: hivatkozás helyes működése (1pt)
-- Kérdőív: a kérdőív kérdései megjelennek (3pt)
-- Kérdőív: a kérdések lapozható formában jelennek meg a lapok megnevezéseivel, a lapok közötti navigáció megfelelő (2pt)
+- `Kérdőíveim: hivatkozás helyes működése (1pt)`
+- `Kérdőív: a kérdőív kérdései megjelennek (3pt)`
+- `Kérdőív: a kérdések lapozható formában jelennek meg a lapok megnevezéseivel, a lapok közötti navigáció megfelelő (2pt)`
 - Kérdőív: csak kitöltött oldal esetén lehet továbblapozni (1pt)
-- Kérdőív: lapozón vizuálisan látszik, hogy mely lapnál tartunk (1pt)
+- `Kérdőív: lapozón vizuálisan látszik, hogy mely lapnál tartunk (1pt)`
 - Kérdőív: beküldés helyes működése (2pt)
 - Válaszok: a kiválasztott kérdőívre adott válaszok megjelennek (2pt)
 - `Profil: csak bejelentkezve érhető el, megfelelő tartalommal (2pt)`

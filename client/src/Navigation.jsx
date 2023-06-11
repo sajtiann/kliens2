@@ -20,6 +20,9 @@ const Navigation = ({ loggedIn }) => {
         </Typography>
         {loggedIn ? (
           <>
+            <Button color="inherit" component={Link} to="/surveys/create">
+              Új kérdőív
+            </Button>
             <Button color="inherit" component={Link} to="/surveys">
               Kérdőíveim
             </Button>
